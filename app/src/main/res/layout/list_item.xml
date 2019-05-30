@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="20dp">
+
+    <TextView
+        android:id="@+id/textViewAlbumId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Album Id:"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textViewId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Id:"
+        app:layout_constraintTop_toBottomOf="@id/textViewAlbumId" />
+
+    <TextView
+        android:id="@+id/textViewTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Title:"
+        app:layout_constraintTop_toBottomOf="@id/textViewId" />
+
+    <TextView
+        android:id="@+id/textViewUrl"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Url:"
+        app:layout_constraintTop_toBottomOf="@id/textViewTitle" />
+
+    <TextView
+        android:id="@+id/textViewtUrl"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Thumbnail Url:"
+        app:layout_constraintTop_toBottomOf="@id/textViewUrl" />
+
+
+</android.support.constraint.ConstraintLayout>
